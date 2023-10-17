@@ -1,0 +1,43 @@
+$fontStyle: arial;
+$size: 20px;
+$fontColor: rgb(117, 190, 208);
+$radius : 10%;
+$margin : 2rem;
+
+#logo {
+    height: 10rem;
+    border-radius: $radius;
+}
+
+.container {
+    width: 30rem;
+    padding: 1rem;
+    background-color: rgb(210, 210, 200);
+    border-radius: $radius;
+    box-shadow: 0px 0px 5px gray;
+    color: white;
+    font-size: 1.6rem;
+    text-align: center;
+    text-shadow: 0px 0px 5px gray;
+    display: flex;
+}
+
+h1{
+    margin-left: $margin;
+    font-family: $fontStyle;
+ 
+    color: $fontColor;
+}
+
+p {
+    margin-left: $margin;
+    font-family: $fontStyle;
+    font-size: $size;
+    color: $fontColor;
+}
+
+.titre {
+    display: flex;
+    flex-direction: column;
+}
+
